@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #0D0C0F;
+    color: white;
+}
+
+.bg-hero {
+    background-image: url("../src/assets/images/Overlay.png"),
+                      url("../src/assets/images/hero1.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.bg-hero2 {
+    background-image: url("../src/assets/images/Overlay.png"),
+                      url("../src/assets/images/hero2.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.bg-hero3 {
+    background-image: url("../src/assets/images/Overlay.png"),
+                      url("../src/assets/images/hero3.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.bg-hero4 {
+    background-image: url("../src/assets/images/Overlay.png"),
+                      url("../src/assets/images/hero4.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+img{
+    object-fit: contain;
+}
